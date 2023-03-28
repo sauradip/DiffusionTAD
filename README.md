@@ -14,6 +14,12 @@
 ## Updates
 - (03/2023) Code will be released soon.
 
+## Summary
+- First DDIM based denoising diffusion framework for Temporal Action Detection (TAD) task.
+- Action Proposals are denoised in a elegant DETR style framework where Transformer-Decoder is the denoiser. 
+- Diffusion sampling efficiency and accuracy is enchanced by introducing a novel cross-step selective conditioning during inference.
+- Denoising action proposals as queries enables faster convergence.
+
 ## Abstract
 We propose a new formulation of temporal action detection (TAD) with denoising diffusion, DiffTAD in short.
 Taking as input random temporal proposals, it can yield action proposals accurately given an untrimmed long video.
