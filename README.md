@@ -19,6 +19,7 @@
 - Action Proposals are denoised in a elegant DETR style framework where Transformer-Decoder is the denoiser. 
 - Diffusion sampling efficiency and accuracy is enchanced by introducing a novel cross-step selective conditioning during inference.
 - Denoising action proposals as queries enables faster convergence.
+- First work which solves discrete dense detection task using Transformer Decoder as denoiser.
 
 ## Abstract
 We propose a new formulation of temporal action detection (TAD) with denoising diffusion, DiffTAD in short.
